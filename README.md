@@ -1,17 +1,13 @@
-Capital City Quiz
-Description
+Capital City Quiz 
+
 
 A web-based quiz that tests users on country capitals. Users enter the capital of a randomly selected country, and the app keeps track of their total correct answers. The quiz data is stored in a PostgreSQL database.
 Technologies used: Node.js, Express, PostgreSQL, EJS, HTML/CSS, dotenv
 
-Features
-
+-Features
 Randomly selects a country from the database.
-
 Users submit their answers and get instant feedback.
-
 Keeps track of total correct answers.
-
 Alerts the user when a wrong answer is submitted.
 
 Setup / How to Run
@@ -24,11 +20,8 @@ cd capital-city-quiz
 ```
 npm install
 ```
-
 3.Setup PostgreSQL database
-
 Create a database (e.g., world)
-
 Create the capitals table:
 ```
 CREATE TABLE capitals (
@@ -52,11 +45,9 @@ DB_PORT=5432
 DB_NAME=world
 PORT=3000
 ```
-
 5.Run the server
 ```
 npm start
 ```
-
 6.Open in browser
 Visit http://localhost:3000 to play the quiz.
